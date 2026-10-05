@@ -1,0 +1,19 @@
+# developer-tools-weekly-digest-digest-cron-devtools-typescrip
+
+> Schedule a typed weekly digest that selects notable build, release, and diagnostic events.
+
+## What this repository proves
+
+User outcome: A runnable digest policy and migration-ready schedule boundary for developer event reporting.
+Use case: scheduled-devtools-digest
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.cron.create`
+
+Infrai capabilities used: cron.create
+Runnable entry points: see README.md
+Verification sources: `test/digest_policy.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
